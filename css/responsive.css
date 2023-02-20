@@ -1,0 +1,46 @@
+
+/* -------------------TABLET------------------- */
+@media screen and (min-width: 768px) {
+    /* common */
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: .5rem;
+    }
+
+    .col {
+        width: calc(100% / 3 - (1rem));
+        margin: 0;
+    }
+
+    .col:first-child {
+        width: calc((100% / 3) * 2 - (.5rem));
+    }
+
+    /* planning section */
+    .planning .col {
+        width: 100%;
+    }
+
+}
+
+/* -------------------DESKTOP------------------- */
+
+@media screen and (min-width: 992px) {
+   /* common */
+    .container {
+        width: 60%;
+        max-width: 800px;
+    }
+
+     /* planning section */
+    .planning .wrapper {
+        align-items: flex-end;
+    }
+
+     .planning .col {
+        width: 48%;
+    }
+
+}
