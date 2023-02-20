@@ -19,8 +19,13 @@
     }
 
     /* planning section */
-    .planning .col {
+    .planning .col,
+    .testimonial .col {
         width: 100%;
+    }
+
+    .testimonial .col {
+        margin-bottom: 1rem;
     }
 
 }

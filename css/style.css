@@ -21,41 +21,60 @@ img {
 
 .space-between {
     justify-content: space-between;
-}
+}    
 
 .center {
     align-items: center;
+}    
+
+section {
+    padding: 2rem 0;
+    text-align: center;
 }
 
 .col {
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 15px;
+} 
+
+.planning .col,
+.testimonial .col {
+    border-radius: 35px;
 }
 
 .bgnd {
     background-color: var(--section-color);
-}
+    color: white;
+}    
 
 /* HEADER */
 header {
     background-color: var(--header-color);
     padding: .8em 0;
-}
+}    
 
 /* MAIN */
-.demo-section {
-    padding: 2rem 0;
-}
+/* demo section */
 
 .demo-section .col {
     background-color: var(--col-bgnd-color);
 }
 
+/* planning section */
+.planning {
+    padding: 1rem 0;
+}
 
+/* benefit section */
+.benefits .wrapper {
+    padding: 1rem 0;
+}
 
-
-
+.benefits .col {
+    background-color: white;
+    color: black;
+}
 
 
 
