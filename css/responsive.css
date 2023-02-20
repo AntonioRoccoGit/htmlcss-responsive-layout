@@ -2,6 +2,13 @@
 /* -------------------TABLET------------------- */
 @media screen and (min-width: 768px) {
     /* common */
+    .container {
+        width: 95%;
+    }
+
+    .container.small {
+        width: 70%;
+    }
     .wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -9,12 +16,12 @@
         gap: .5rem;
     }
 
-    .col {
+    .demo-section .col {
         width: calc(100% / 3 - (1rem));
         margin: 0;
     }
 
-    .col:first-child {
+    .demo-section .col:first-child {
         width: calc((100% / 3) * 2 - (.5rem));
     }
 
@@ -28,6 +35,19 @@
         margin-bottom: 1rem;
     }
 
+    /* benefit section */
+    .benefits .col {
+        width: 48%;
+    }
+
+    /* about us section */
+    .about-us .col:first-child {
+        width: 58%;
+    }
+    .about-us .col:last-child {
+        width: 40%;
+    }
+
 }
 
 /* -------------------DESKTOP------------------- */
@@ -39,6 +59,10 @@
         max-width: 800px;
     }
 
+    .container.small {
+        width: 40%;
+        max-width: 600px;
+    }
      /* planning section */
     .planning .wrapper {
         align-items: flex-end;
@@ -46,6 +70,11 @@
 
      .planning .col {
         width: 48%;
+    }
+
+    /* benefit section */
+    .benefits .col {
+        width: 32%;
     }
 
 }

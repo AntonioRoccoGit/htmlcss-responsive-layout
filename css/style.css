@@ -11,7 +11,7 @@ img {
 
 /* COMMON */
 .container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -76,9 +76,27 @@ header {
     color: black;
 }
 
+/* about us section */
+.about-us .col {
+    padding: 0;
+}
 
+/* FOOTER */
+footer {
+    background-color: var(--footer-color);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
 
+footer a {
+    color: var(--section-color);
+    text-decoration: underline;
+}
 
+.footer-subtitle {
+    margin-bottom: 3rem;
+}
 
 /* COLOR */
 :root {
@@ -87,5 +105,4 @@ header {
     --section-color: #9792E4;
     --free-text: #FDC15F;
     --footer-color: #333333;
-    --padding-1rem: 1rem;
 }
