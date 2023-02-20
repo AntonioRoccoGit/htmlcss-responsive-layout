@@ -35,12 +35,12 @@
         margin-bottom: 1rem;
     }
 
-    /* benefit section */
+    /* --------------------benefit section */
     .benefits .col {
         width: 48%;
     }
 
-    /* about us section */
+    /* --------------------about us section */
     .about-us .col:first-child {
         width: 58%;
     }
@@ -63,7 +63,27 @@
         width: 40%;
         max-width: 600px;
     }
-     /* planning section */
+
+    /*------------------ header nav bar */
+    #nav-hamb {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+    }
+
+    .nav-menu li:not(:first-child) {
+        margin-left: 1rem;
+    }
+
+    .nav-bar-button {
+        background-color: white;
+        color: black;
+        padding: .4rem 1rem;
+        border-radius: 20px;
+    }
+     /*-------------------- planning section */
     .planning .wrapper {
         align-items: flex-end;
     }
