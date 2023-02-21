@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) {
     /* common */
     .container {
-        width: 95%;
+        width: 90%;
     }
 
     .container.small {
@@ -25,14 +25,25 @@
         width: calc((100% / 3) * 2 - (.5rem));
     }
 
-    /* planning section */
+    /* ******************planning section */
     .planning .col,
     .testimonial .col {
         width: 100%;
     }
 
+    /* *********************testimonial */
     .testimonial .col {
         margin-bottom: 1rem;
+    }
+
+    .testimonial-card {
+        display: flex;
+    }
+
+    .testimonial-text {
+        flex-basis: 80%;
+        text-align: left;
+        padding: 2rem .9rem 0;
     }
 
     /* --------------------benefit section */
@@ -55,7 +66,7 @@
 @media screen and (min-width: 992px) {
    /* common */
     .container {
-        width: 60%;
+        width: 70%;
         max-width: 800px;
     }
 
@@ -72,25 +83,25 @@
     .nav-menu {
         display: flex;
     }
-
-     /*-------------------- planning section */
-    .planning .wrapper {
-        align-items: flex-end;
-    }
-
-     .planning .col {
-        width: 48%;
-    }
-
-    .download-app img {
-        max-width: 180px;
-    }
+    
     /* -----------------------demo section */
     .demo-section .col:first-child {
         display: flex;
         align-items: flex-end;
     }
 
+     /*-------------------- planning section */
+    .planning .wrapper {
+        align-items: flex-end;
+    }    
+
+     .planning .col {
+        width: 48%; 
+    }    
+    
+    .download-app img {
+        max-width: 180px;
+    }    
     /* ------------------------benefit section */
     .benefits .col {
         width: 32%;
