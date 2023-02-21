@@ -27,19 +27,7 @@ a {
     width: 90%;
     margin: 0 auto;
 }
-
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.space-between {
-    justify-content: space-between;
-}    
-
-.center {
-    align-items: center;
-}    
+   
 
 section {
     padding: 2rem 0;
@@ -52,15 +40,33 @@ section {
     border-radius: 15px;
 } 
 
-.planning .col,
+.download-app,
 .testimonial .col {
     border-radius: 35px;
 }
 
+/* **********************UTILITIES */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}    
+
+.center {
+    align-items: center;
+} 
+
 .bgnd {
     background-color: var(--section-color);
     color: white;
-}    
+}  
+
+.circle {
+    border-radius: 50%;
+}
 
 /* HEADER */
 header {
@@ -73,6 +79,17 @@ header {
     display: none;
 }
 
+.nav-menu li:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.nav-bar-button {
+    background-color: white;
+    color: black;
+    padding: .4rem 1rem;
+    border-radius: 20px;
+}
+
 /* MAIN */
 /* demo section */
 
@@ -81,9 +98,10 @@ header {
     text-align: left;
 }
 
-/* planning section */
-.planning {
-    padding: 1rem 0;
+.demo-img {
+    position: relative;
+    top: 24px;
+    max-width: 200px;
 }
 
 .demo-title {
@@ -97,6 +115,16 @@ header {
     font-weight: 600;
 }
 
+.col.small-card {
+    text-align: center;
+} 
+
+.small-card-icon {
+    font-size: 4rem;
+    color: var(--header-color);
+    margin-bottom: 1rem;
+}
+
 .big-button {
     color: white;
     background-color: var(--header-color);
@@ -107,11 +135,26 @@ header {
     font-weight: 600;
 }
 
-.demo-img {
-    position: relative;
-    top: 24px;
+/* planning section */
+.planning {
+    padding: 1rem 0;
 }
 
+
+
+.download-app {
+    background-color: white;
+    padding: 1.5rem 0;
+}
+
+.download-app .circle {
+    width: 40px;
+    height: 40px;
+    margin: 1rem auto 0;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+}
 
 /* benefit section */
 .benefits .wrapper {
@@ -128,7 +171,7 @@ header {
     padding: 0;
 }
 
-/* FOOTER */
+/* *****************************FOOTER */
 footer {
     background-color: var(--footer-color);
     color: white;
@@ -145,11 +188,37 @@ footer a {
     margin-bottom: 3rem;
 }
 
-/* COLOR */
+/* *******************************COLOR */
 :root {
     --header-color: #0084FD;
     --col-bgnd-color: #B5DDFF;
     --section-color: #9792E4;
     --free-text: #FDC15F;
     --footer-color: #333333;
+}
+
+/* *****************************FONT STYLE*********  */
+
+/* planning */
+.description {
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.description h2 {
+    padding: 3rem 0 2rem;
+}
+
+.download-app {
+    color: black;
+}
+
+.download-app h2 {
+    padding: 1rem 0;
+}
+
+.download-app p {
+    font-style: italic;
+    font-weight: 400;
+    padding: 0 1rem;
 }

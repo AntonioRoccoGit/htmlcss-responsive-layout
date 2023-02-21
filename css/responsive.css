@@ -73,16 +73,6 @@
         display: flex;
     }
 
-    .nav-menu li:not(:first-child) {
-        margin-left: 1rem;
-    }
-
-    .nav-bar-button {
-        background-color: white;
-        color: black;
-        padding: .4rem 1rem;
-        border-radius: 20px;
-    }
      /*-------------------- planning section */
     .planning .wrapper {
         align-items: flex-end;
@@ -92,9 +82,22 @@
         width: 48%;
     }
 
-    /* benefit section */
+    .download-app img {
+        max-width: 180px;
+    }
+    /* -----------------------demo section */
+    .demo-section .col:first-child {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    /* ------------------------benefit section */
     .benefits .col {
         width: 32%;
     }
 
+    /* ***********************FONT STYLE */
+    .description h2 {
+        padding-top: 6rem;
+    }
 }
