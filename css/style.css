@@ -219,6 +219,22 @@ header {
     margin-right: 6px;
 }
 
+/* get started section */
+.start-btn {
+    width: 80%;
+    max-width: 200px;
+    border-radius: 40px;
+    padding: .8rem 0;
+    margin: 0 auto;
+    font-weight: bold;
+    color: var(--section-color);
+    background-color: white;
+}
+
+.privacy {
+    text-decoration-line: underline;
+}
+
 /* *****************************FOOTER */
 footer {
     background-color: var(--footer-color);
@@ -323,6 +339,38 @@ footer a {
     margin-top: 10px;
     text-align: left;
     font-weight: 600;
+    line-height: 1.4em;
     font-size: 1.8rem;
     color: var(--section-color);
+}
+
+/* get started */
+.started-content h2 {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.527);
+}
+
+.spot {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2em;
+
+}
+
+.free {
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 3rem 0;
+    color: var(--free-text);
+}
+
+.start-info {
+    padding-bottom: 1.5rem;
+}
+
+.copyright {
+    padding-top: 2rem;
 }
