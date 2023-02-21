@@ -7,6 +7,7 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
+    line-height: 1.6em;
 }
 
 img {
@@ -187,6 +188,37 @@ header {
     padding: 0;
 }
 
+.about-us-text {
+    text-align: left;
+}
+
+.manager-img {
+    width: 150px;
+    position: relative;
+    
+}
+
+.hard-quote {
+    position: absolute;
+    font-size: 3.5rem;
+    top: -5px;
+    right: -4px;
+    color: var(--section-color);
+}
+
+.linkedin-btn {
+    padding: .6rem;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 180px;
+    color: white;
+    background-color: var(--section-color);
+}
+
+.linkedin-btn .fa-linkedin {
+    margin-right: 6px;
+}
+
 /* *****************************FOOTER */
 footer {
     background-color: var(--footer-color);
@@ -213,7 +245,7 @@ footer a {
     --footer-color: #333333;
 }
 
-/* *****************************FONT STYLE*********  */
+/* *****************PADDING & STYLE*********  */
 /* planning */
 .description {
     text-align: left;
@@ -244,7 +276,8 @@ footer a {
     font-size: 1rem;
 }
 
-.testimonial h2 {
+.testimonial h2,
+.about-us-text h2 {
     color: var(--section-color);
     padding: 2rem 0;
     font-size: 2rem;
@@ -279,4 +312,17 @@ footer a {
 .benefits-description {
     color: #796e6e;
     padding: 1rem 0;
+}
+
+/* about us */
+.about-us-text p {
+    padding-bottom: 2rem;
+}
+
+.manager-text {
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: var(--section-color);
 }

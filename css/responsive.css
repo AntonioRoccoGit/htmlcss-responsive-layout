@@ -53,10 +53,11 @@
 
     /* --------------------about us section */
     .about-us .col:first-child {
-        width: 58%;
+        width: 60%;
     }
     .about-us .col:last-child {
-        width: 40%;
+        width: 30%;
+        padding-top: 2rem;
     }
 
 }
