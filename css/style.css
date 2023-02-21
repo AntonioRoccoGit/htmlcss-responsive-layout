@@ -172,6 +172,16 @@ header {
     color: black;
 }
 
+.benefits-button {
+    width: 140px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    padding: .4rem .8rem;
+    text-align: center;
+    background-color: var(--section-color);
+    color: white;
+}
+
 /* about us section */
 .about-us .col {
     padding: 0;
@@ -253,4 +263,20 @@ footer a {
     color: white;
     text-transform: uppercase;
     font-size: 1.3rem;
+}
+
+/* benefit */
+.benefits-card {
+    color: var(--section-color);
+    text-align: left;
+}
+
+.benefits-number {
+    font-size: 2.4rem;
+    padding: 1rem 0;
+}
+
+.benefits-description {
+    color: #796e6e;
+    padding: 1rem 0;
 }
