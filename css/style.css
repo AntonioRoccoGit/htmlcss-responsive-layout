@@ -74,6 +74,9 @@ header {
     background-color: var(--header-color);
     padding: .8em 0;
     color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }    
 
 .nav-menu {
@@ -93,6 +96,9 @@ header {
 
 /* MAIN */
 /* demo section */
+.demo-section {
+    padding-top: 7rem;
+}
 .demo-section .col {
     background-color: var(--col-bgnd-color);
     text-align: left;
